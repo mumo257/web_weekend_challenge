@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+header {
+    background-color: bisque;
+    padding: 25px ;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    color: blueviolet;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.Home-seletion{
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+.Powerlearnproject{
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: red;
+}
+
+.Home-seletion > p{
+    font-size: 25px;
+}
+
+i{
+    font-size: xx-large;
+    height: 60px;
+    width: 50px;
+}
+
+.About{
+    width: 60%;
+    margin: 50px auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.about-content{
+    width: 60%;
+}
+
+.about > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+
+.about-content > h1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.about-content > p{
+    font-size: large;
+}
